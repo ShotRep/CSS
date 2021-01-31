@@ -1,0 +1,156 @@
+/*Universal Formatting Through CSS*/
+* {
+  margin: 0;
+  padding: 0;
+  line-height: 1.0em;
+  font-family: verdana;
+  font-size: 1.0em;
+  font-style: normal;
+}
+
+/*Universal Formatting Through CSS*/
+body {
+  text-align: center;
+  background-color: #f0fff1;
+  color: #557174;
+}
+
+hr {
+  margin: 30px auto;
+  width: 5em;
+  border: 15px dotted;
+  border-bottom: none;
+}
+
+h1 {
+  margin-top: 0.75em;
+  margin-bottom: 0.5em;
+  text-align: center;
+  font-weight: 900;
+  font-size: 3.3em;
+}
+
+h2 {
+  text-align: center;
+  font-weight: 500;
+  font-size: 2.0em;
+  font-style: italic;
+}
+
+h3 {
+  text-align: center;
+  font-weight: 300;
+  font-size: 1.6em;
+}
+
+p {
+  text-align: left;
+  font-weight: normal;
+  font-size: 1.1em;
+  line-height: 1.7em;
+}
+
+a {
+  margin: 10px 20px
+}
+
+a:link {
+  color: #f0fff1;
+}
+
+a:visited {
+  color: #f0fff1;
+}
+
+a:hover {
+  color: black;
+}
+
+a:active {
+  color: white;
+}
+
+.mtn {
+  padding-top: 50px;
+  background-color: #557174;
+  color: #f0fff1;
+  width: 100%;
+}
+
+.tcloud {
+  position: absolute;
+  right: 125px;
+  top: 90px
+}
+
+.mcloud {
+  position: absolute;
+  right: 550px;
+  top: 25px
+}
+
+.m1cloud {
+  position: absolute;
+  left: 600px;
+  top: 50px
+}
+
+.bcloud {
+  position: absolute;
+  left: 200px;
+  top: 115px
+}
+
+.container {
+  margin: auto;
+  width: 80%;
+}
+
+.profile {
+  padding-top: 25px;
+  position: relative;
+}
+
+.skills {
+  padding-top: 15px;
+  position: relative;
+  margin: auto;
+}
+
+.contact-me {
+  padding-top: 20px;
+  padding-bottom: 50px;
+  position: relative;
+}
+
+.footer {
+  color: #f0fff1;
+  background-color: #557174;
+  padding-top: 25px;
+  position: relative;
+}
+
+.footer-link {
+  text-decoration: none;
+}
+
+.btn {
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: verdana;
+  color: #f0fff1;
+  font-size: 20px;
+  background: #557174;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  text-decoration: none;
+}
+
+.copyright {
+  color: black;
+  font-size: 15px;
+}
