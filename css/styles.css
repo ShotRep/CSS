@@ -89,26 +89,26 @@ a:active {
 
 .tcloud {
   position: absolute;
-  left: 9rem;
-  top: 10rem;
+  left: 7%;
+  top: 5%;
   }
 
 .mcloud {
   position: absolute;
-  left: 35rem;
-  top: 5rem;
+  left: 28%;
+  top: 7%;
 }
 
 .m1cloud {
   position: absolute;
-  right: 35rem;
-  top: 3rem;
+  right: 30%;
+  top: 6%;
 }
 
 .bcloud {
   position: absolute;
-  right: 7rem;
-  top: 5.5rem;
+  right: 7%;
+  top: 4%;
 }
 
 .container {
